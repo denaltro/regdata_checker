@@ -1,0 +1,31 @@
+<%# <section class="phx-hero"> %>
+  <p>Проверка регистрационных данных юридических лиц</p>
+  <div class="row">
+    <div class="col-xs-3">
+      <input type="text" id="inn-input" class="form-control" placeholder="Введите ИНН" autofocus>
+    </div>
+    <div class="col-xs-12">
+      <button id="inn-button" type="submit">Проверить</button>
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-xs-3">
+      <input type="text" id="kpp-input" class="form-control" placeholder="Введите КПП" autofocus>
+    </div>
+    <div class="col-xs-9">
+      <button id="kpp-button" type="submit">Проверить</button>
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-xs-3">
+      <input type="text" id="ogrn-input" class="form-control" placeholder="Введите ОГРН" autofocus>
+    </div>
+    <div class="col-xs-9">
+      <button id="ogrn-button" type="submit">Проверить</button>
+    </div>
+  </div>
+<%# </section> %>
+<ul id='list' class='row' style='list-style: none; min-height:200px; padding: 10px;flex-direction:column'></ul>
+
+
+
